@@ -26,9 +26,8 @@ p {
   color: white;
   line-height: 35px;
 }
-.img-div-left {
-  margin-right: 50px;
-}
-.img-div-right {
-  margin-right: 50px;
+
+div.content {
+  display: block;
+  margin: 0 auto;
 }
