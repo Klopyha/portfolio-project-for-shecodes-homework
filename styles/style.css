@@ -13,7 +13,7 @@ h1 {
   font-size: 72px;
 }
 h3 {
-  color: 272142;
+  color: #272142;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 28px;
@@ -30,4 +30,27 @@ p {
 div.content {
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 34px;
+  }
+  p {
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    line-height: 14px;
+    margin-bottom: 0rem;
+  }
+  .hero {
+    background-image: none;
+    background-color: #3f403f;
+    padding: 21px 0px;
+    margin-bottom: 35px;
+  }
+  h3 {
+    font-size: 12px;
+    padding: 10px 0;
+  }
 }
