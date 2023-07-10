@@ -7,6 +7,7 @@
   margin-bottom: 70px;
 }
 h1 {
+  text-align: center;
   color: white;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
@@ -30,6 +31,52 @@ p {
 div.content {
   display: block;
   margin: 0 auto;
+}
+.text-about-page {
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+
+p.text-about-page {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+  max-width: 490px;
+}
+p.about-favorite-recepi {
+  font-size: 16px;
+  line-height: 2;
+  max-width: 365px;
+}
+
+.shalley-div {
+  margin-top: 30px;
+  align-items: center;
+}
+.follow-me {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-top: 70px;
+}
+.about-me-section {
+  margin-top: 140px;
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+h4 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 120px 0 30px 0;
+}
+.favorite-recepi {
+  font-size: 24px;
 }
 
 @media (max-width: 900px) {
