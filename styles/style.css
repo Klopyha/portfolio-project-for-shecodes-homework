@@ -98,6 +98,15 @@ p.method {
   color: #272142;
   font-weight: normal;
 }
+p.contacts {
+  color: #272142;
+  font-weight: normal;
+  font-size: 24px;
+}
+span {
+  color: #662eed;
+  font-size: 18px;
+}
 strong {
   color: #f65282;
 }
