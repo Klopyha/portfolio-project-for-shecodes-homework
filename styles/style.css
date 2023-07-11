@@ -80,7 +80,8 @@ h4 {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  h1,
+  h2 {
     font-size: 34px;
   }
   p {
@@ -99,5 +100,12 @@ h4 {
   h3 {
     font-size: 12px;
     padding: 10px 0;
+  }
+
+  .about-me-section {
+    margin-top: 30px;
+  }
+  .favorite-recepi {
+    margin-bottom: 0;
   }
 }
