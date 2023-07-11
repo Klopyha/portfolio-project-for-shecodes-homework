@@ -78,7 +78,29 @@ h4 {
 .favorite-recepi {
   font-size: 24px;
 }
+.about-recepi-section {
+  margin-top: 70px;
+}
 
+hr {
+  border: 5px dotted #67d5d2;
+  border-style: none none dotted;
+  color: #fff;
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+p.method {
+  color: #272142;
+  font-weight: normal;
+}
+strong {
+  color: #f65282;
+}
 @media (max-width: 900px) {
   h1,
   h2 {
@@ -107,5 +129,12 @@ h4 {
   }
   .favorite-recepi {
     margin-bottom: 0;
+  }
+  ul {
+    font-size: 12px;
+    list-style-type: circle;
+  }
+  hr {
+    display: none;
   }
 }
