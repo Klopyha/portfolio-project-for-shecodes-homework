@@ -106,10 +106,12 @@ p.contacts {
 span {
   color: #662eed;
   font-size: 18px;
+  font-weight: bold;
 }
 strong {
   color: #f65282;
 }
+
 @media (max-width: 900px) {
   h1,
   h2 {
@@ -145,5 +147,10 @@ strong {
   }
   hr {
     display: none;
+  }
+  p.contacts {
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
   }
 }
