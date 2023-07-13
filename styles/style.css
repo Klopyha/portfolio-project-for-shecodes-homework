@@ -111,7 +111,28 @@ span {
 strong {
   color: #f65282;
 }
-
+.logo {
+  max-height: 25px;
+}
+nav {
+  margin-top: 21px;
+}
+.nav-links {
+  display: inline-flex;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 25px;
+  color: #272142;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+li.active,
+nav a:hover {
+  color: #662eed;
+}
 @media (max-width: 900px) {
   h1,
   h2 {
@@ -141,6 +162,9 @@ strong {
   .favorite-recepi {
     margin-bottom: 0;
   }
+  .about-recepi-section {
+    margin-top: 12px;
+  }
   ul {
     font-size: 12px;
     list-style-type: circle;
@@ -152,5 +176,18 @@ strong {
     text-align: center;
     line-height: normal;
     font-size: 16px;
+  }
+  .logo {
+    max-height: 15px;
+  }
+  nav a {
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  .recepi-list {
+    padding-left: 25px;
+  }
+  .h3-on-about {
+    margin-top: 5px !important;
   }
 }
