@@ -144,6 +144,11 @@ h6 {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
 }
+
+.follow-links {
+  color: #272142;
+}
+
 .contact-box-link {
   margin-left: 12px;
   color: #272142;
